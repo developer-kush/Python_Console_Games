@@ -30,15 +30,6 @@ f2=Frame(root)
 f3=Frame(root)
 chf=Frame(root)
 
-''' comp code
-
-Label(chf,font=('courier',10),width=20,height=2,text='!!! TIC TAC TOE !!!',bg='black',fg='white').grid(row=0,column=1,columnspan=2)
-Button(chf,text='Vs Computer',command=lambda:func1()).grid(row=1,column=1)
-Button(chf,text='PvP',command=lambda:func2()).grid(row=1,column=2)
-
-chf.pack()
-'''
-
 #f1 setting
 Label(f,font=('courier',10),width=20,height=2,text='!!! TIC TAC TOE !!!',bg='black',fg='white').grid(row=0,column=1,columnspan=3)
 		
