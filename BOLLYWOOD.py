@@ -1,4 +1,4 @@
-from clear_screen import clear
+import os
 m=input("Enter Name Of A Movie :\n")
 m=m.upper()
 vow=['A','E','I','O','U']
@@ -9,7 +9,7 @@ i=9
 bol='BOLLYWOOD'
 while i>0 and k==0 :
     k=1
-    clear()
+    os.system("cls")
     for j in range(0,i):
         print(bol[j],end="")
     print("\n")
